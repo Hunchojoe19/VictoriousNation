@@ -1,0 +1,106 @@
+#navbar{
+    /* width: 99vw; */
+    height: 95px;
+    background: linear-gradient(90deg, #582B56 17.6%, #1D184E 61.22%);
+    background-blend-mode: multiply;
+    top: 0;
+    position: sticky;
+}
+.nav-bar-second{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.logo-name{
+    margin: 0 6rem;
+    display: flex;
+}
+.logo-name img{
+   height: 90%;
+   margin: .3rem;
+}
+.church-name{
+    margin: 1rem 1rem;
+}
+.church-name h3{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.church-name p{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    letter-spacing: 1.6px;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: -.3rem 0;
+    color: #e9e7e7;
+}
+.empty-div{
+    width: 40vw;
+    height: 100%;
+}
+.menu-bars{
+    display: flex;
+    margin: 0 1rem;
+}
+.menu-bars div{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    cursor: pointer;
+}
+.menu-bars h4{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    width: 100px;
+    margin-right: 2rem;
+    justify-content: space-between;
+    /* identical to box height */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #FFFFFF;
+}
+.menu-bars div:hover {
+    box-shadow: 30rem;
+    border: 2px solid rgba(196, 67, 124, 0.5);
+    transition: 0.3s ease-in-out;
+}
+.btn{
+    margin: 1rem -0.5rem;
+    width: 100px;
+    height: 100px;
+    /* display: flex; */
+}
+.btn button{
+    width: 70%;
+    height: 50%;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 12px;
+    background: #C4437C;
+    backdrop-filter: blur(2px);
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    width: 80%;
+}

@@ -1,0 +1,64 @@
+.next-main{
+    margin: 5rem 0;
+    height: 90vh;
+    /* position: relative; */
+    /* background-color: black; */
+    /* margin: -1rem 0; */
+}
+.next-container{
+    height: 100%;
+    /* background-color: blue; */
+    /* background-color: blue; */
+}
+.one-div{
+    /* background-color: red; */
+    height: 10%;
+}
+.church-heading{
+    /* margin: 1rem 30rem; */
+    /* background-color: green; */
+    height: 10%;
+}
+.church-heading h2{
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    /* background-color: orange; */
+    margin: 0 auto;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    background: linear-gradient(90deg, #C4437C 2.57%, #4A044F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    background-blend-mode: multiply;
+}
+.next-first-paragraph{
+    width: 40%;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+}
+.next-first-paragraph p{
+    font-size: 30px ;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2.5rem;
+}
+.next-second-paragraph{
+    width: 45%;
+    margin: .5rem auto;
+}
+.next-second-paragraph p{
+    font-size: 30px;
+}

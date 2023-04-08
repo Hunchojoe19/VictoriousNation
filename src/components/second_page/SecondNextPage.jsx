@@ -2,6 +2,9 @@ import React from 'react'
 import './secondNextPage.css'
 import VNCLogo from './../assets/images/VNCLogo.png'
 import opu from './../assets/images/opu.png'
+import {IoMdTime} from 'react-icons/io'
+import {RiMapPin3Line} from 'react-icons/ri'
+import Footer from './../reusable/footer/Footer'
 
 
 const SecondNextPage = () => {
@@ -86,15 +89,194 @@ const SecondNextPage = () => {
                   </div>
                   <div className="upcoming-services-div">
                     <div style={{ width: '240px'}}/>
-                    <div className="first-service-div"></div>
+                    <div className="first-service-div">
+                      <div style={{height: '20px'}}></div>
+                      <div className="div1">
+                          <h2>This Month</h2>
+                      </div>
+                      <div className="div2">
+                        <p>
+                          sunday services
+                        </p>
+                      </div>
+                      <div className="div3">
+                        <p>1st - NEW BEGINNINGS</p>
+                        <p>2nd - KINGDOM DOMINION</p>
+                        <p>3rd - FAMILY LIFE</p>
+                        <p>4th - UPPER ROOM ENCOUNTER</p>
+                        <p>5th - BUSINESS/YOUTH</p>
+                      </div>
+                      <div className="time-housing-div">
+                        <div style={{ width: '50px'}}/>
+                      <div className="time">
+                        <IoMdTime size={20}/>
+                      </div>
+                      <div style={{width: '10px'}}/>
+                      <div className='servie-details'>
+                        <p>
+                          1st Service - 07:00 GMT +1
+                        </p>
+                        <p>
+                          2nd Service - 08:30 GMT +1
+                        </p>
+                      </div>
+                      </div>
+                      <div className="time-housing-div">
+                        <div style={{ width: '50px'}}/>
+                      <div className="time">
+                        <RiMapPin3Line size={20}/>
+                      </div>
+                      <div style={{width: '10px'}}/>
+                      <div className='servie-details'>
+                        <p>
+                          37, Mary Hanney Rd, Oron,
+                        </p>
+                        <p>
+                          Akwa-Ibom State, Nigeria. 
+                        </p>
+                      </div>
+                      </div>
+                    </div>
                     <div style={{width: '50px'}}/>
-                    <div className="second-service-div"></div>
+                    <div className="second-service-div">
+                      <div style={{height: '20px'}}></div>
+                      <div className="div1">
+                          <h2>This Month</h2>
+                      </div>
+                      <div className="div2">
+                        <p>
+                          Upcoming Events
+                        </p>
+                      </div>
+                      <div className="div3">
+                        <p>DINNER WITH JESUS</p>
+                        
+                      </div>
+                      <div className="time-housing-div">
+                        <div style={{ width: '50px'}}/>
+                      <div className="time">
+                        <IoMdTime size={20}/>
+                      </div>
+                      <div style={{width: '10px'}}/>
+                      <div className='servie-details'>
+                        <p>
+                         Fridays 17:30 GMT +1
+                        </p>
+                      </div>
+                      </div>
+                      <div className="time-housing-div">
+                        <div style={{ width: '50px'}}/>
+                      <div className="time">
+                        <RiMapPin3Line size={20}/>
+                      </div>
+                      <div style={{width: '10px'}}/>
+                      <div className='servie-details'>
+                        <p>
+                          37, Mary Hanney Rd, Oron,
+                        </p>
+                        <p>
+                          Akwa-Ibom State, Nigeria. 
+                        </p>
+                      </div>
+                      </div>
+                    </div>
                     <div style={{width: '50px'}}/>
-                    <div className="third-service-div"></div>
+                    <div className="third-service-div">
+                      <div style={{height: '20px'}}></div>
+                      <div className="div1">
+                          <h2>This Month</h2>
+                      </div>
+                      <div className="div2">
+                        <p>
+                          Upcoming Events
+                        </p>
+                      </div>
+                      <div className="div3">
+                        <p>THERE IS NOTHING IMPOSSIBLE</p>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                        
+                      </div>
+                      <div className="time-housing-div">
+                        <div style={{ width: '50px'}}/>
+                      <div className="time">
+                        <IoMdTime size={20}/>
+                      </div>
+                      <div style={{width: '10px'}}/>
+                      <div className='servie-details'>
+                        <p>
+                          Friday 23:39 IST 
+                        </p>
+                        <p>
+                          Saturday 11:20 ISD
+                        </p>
+                      </div>
+                      </div>
+                      <div className="time-housing-div">
+                        <div style={{ width: '50px'}}/>
+                      <div className="time">
+                        <RiMapPin3Line size={20}/>
+                      </div>
+                      <div style={{width: '10px'}}/>
+                      <div className='servie-details'>
+                        <p>
+                          No 233 Main St. New York,
+                        </p>
+                        <p>
+                           United States.
+                        </p>
+                      </div>
+                      </div>
+                    </div>
                     <div style={{width: '50px'}}/>
-                    <div className="fourth-service-div"></div>
+                    <div className="fourth-service-div">
+                      <div style={{height: '20px'}}></div>
+                      <div className="div1">
+                          <h2>This Month</h2>
+                      </div>
+                      <div className="div2">
+                        <p>
+                          Upcoming Events
+                        </p>
+                      </div>
+                      <div className="div3">
+                        <p>Celebrating freedom and life</p>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                      </div>
+                      <div className="time-housing-div">
+                        <div style={{ width: '50px'}}/>
+                      <div className="time">
+                        <IoMdTime size={20}/>
+                      </div>
+                      <div style={{width: '10px'}}/>
+                      <div className='servie-details'>
+                        <p>
+                          1st Service - 07:00 GMT +1
+                        </p>
+                        <p>
+                          2nd Service - 08:30 GMT +1
+                        </p>
+                      </div>
+                      </div>
+                      <div className="time-housing-div">
+                        <div style={{ width: '50px'}}/>
+                      <div className="time">
+                        <RiMapPin3Line size={20}/>
+                      </div>
+                      <div style={{width: '10px'}}/>
+                      <div className='servie-details'>
+                        <p>
+                          37, Mary Hanney Rd, Oron,
+                        </p>
+                        <p>
+                          Akwa-Ibom State, Nigeria. 
+                        </p>
+                      </div>
+                      </div>
+                    </div>
                   </div>
             </div>
+            <div style={{height: "100px"}}/>
+            <Footer/>
         </div>
     </div>
   )

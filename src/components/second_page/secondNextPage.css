@@ -177,24 +177,119 @@
     width: 350px;
     background: rgba(74, 4, 79, 0.1);
     background-blend-mode: multiply;
-    transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .second-service-div{
     width: 350px;
     background: rgba(74, 4, 79, 0.1);
     background-blend-mode: multiply;
-    transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .third-service-div{
     width: 350px;
     background: rgba(74, 4, 79, 0.1);
     background-blend-mode: multiply;
-    transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .fourth-service-div{
     width: 350px;
     background: rgba(74, 4, 79, 0.1);
     background-blend-mode: multiply;
-    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.div1{
+    height: 15%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* display: grid; */
+}
+.div1 h2{
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 250px;
+    width: 100px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #161722;
+}
+.div2{
+    width: 25%;
+    height: 50px;
+    margin-left: 2rem;
+}
+.div2 p{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    /* Gradient */
+
+    background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.div3{
+    width: 100%;
+    height: 30%;
+
+}
+.div3 p{
+    margin-left: 2rem;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+
+    /* Black */
+
+    color: #161722;
+
+}
+.div3 h6{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 2rem;
+    /* or 150% */
+
+
+    /* Black */
+
+    color: #161722;
+
+    opacity: 0.78;
+
+}
+.time-housing-div{
+    display: flex;
+    margin-bottom: 20px;
+}
+.service-details p{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* Black */
+
+    color: #161722;
 }
 

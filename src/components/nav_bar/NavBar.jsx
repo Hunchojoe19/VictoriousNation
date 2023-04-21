@@ -1,7 +1,7 @@
 import React from 'react'
 import './navbar.css'
 import whiteLogo from './../assets/images/whiteLogo.png'
-import { useNavigate } from 'react-router-dom'
+import {  useNavigate } from 'react-router-dom'
 
 const NavBar = () => {
     const navigate = useNavigate()
@@ -32,7 +32,8 @@ const NavBar = () => {
                 </div>
             </div>
             <div className='btn'>
-                <button>Give</button>
+                
+                <button onClick={() => navigate('/donate')}>Give</button>
             </div>
         </div>
     </nav>

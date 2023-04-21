@@ -275,7 +275,7 @@ const SecondNextPage = () => {
                     </div>
                   </div>
             </div>
-            <div style={{height: "100px"}}/>
+            <div style={{height: "50px"}}/>
             <Footer/>
         </div>
     </div>

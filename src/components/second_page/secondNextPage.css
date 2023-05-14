@@ -1,8 +1,11 @@
+@media screen and (min-width: 900px) {
 .secondNext-container{
     height: 60vh;
+    width: 100vw;
 }
 .secondNext-new-container{
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 .secondpage-empty{
@@ -13,8 +16,8 @@
     display: flex;
 }
 .empty-divs-snp{
-    width: 250px;
-    height: 400px;
+    width: 15%;
+    height: 100%;
 
 }
 .first-card-snp{
@@ -292,4 +295,4 @@
 
     color: #161722;
 }
-
+}

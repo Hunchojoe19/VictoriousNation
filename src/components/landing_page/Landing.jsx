@@ -27,8 +27,8 @@ const Landing = () => {
                 <div style={{ height: '40%', width: '40%'}}></div>
                 <h3>The <span style={{ color: "#FFF212"}}>Victorious </span>Family</h3>
             </div>
-            <div style={{height: "200px"}}> </div>
-            <div style={{height: "200px"}}></div>
+           
+            <div style={{height: "40vh"}}></div>
             <div className="icon">
                 <BsArrowDownShort size={50} style={{ color: "white", margin: '0 55rem', cursor: 'pointer'}}/>
             </div>

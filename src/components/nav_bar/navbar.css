@@ -1,5 +1,6 @@
+@media screen and (min-width: 900px) {
 #navbar{
-    /* width: 99vw; */
+    width: 100vw;
     height: 95px;
     background: linear-gradient(90deg, #582B56 17.6%, #1D184E 61.22%);
     background-blend-mode: multiply;
@@ -49,7 +50,7 @@
     color: #e9e7e7;
 }
 .empty-div{
-    width: 40vw;
+    width: 30vw;
     height: 100%;
 }
 .menu-bars{
@@ -57,24 +58,23 @@
     margin: 0 1rem;
 }
 .menu-bars div{
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: grid;
     cursor: pointer;
 }
-.menu-bars h4{
+.menu-bars div h4{
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     width: 100px;
     margin-right: 2rem;
-    justify-content: space-between;
-    /* identical to box height */
     align-items: center;
     justify-content: center;
     display: flex;
     color: #FFFFFF;
+    margin-left: 1.5rem;
 }
 .menu-bars div:hover {
     box-shadow: 30rem;
@@ -82,14 +82,13 @@
     transition: 0.3s ease-in-out;
 }
 .btn{
-    margin: 1rem -0.5rem;
-    width: 100px;
-    height: 100px;
-    /* display: flex; */
+    margin-top: 1rem;
+    width: 120px;
+    height: 80px;
 }
 .btn button{
-    width: 70%;
-    height: 50%;
+    width: 100%;
+    height: 70%;
     color: white;
     border: none;
     font-size: 18px;
@@ -101,6 +100,5 @@
     font-weight: 700;
     line-height: 16px;
     cursor: pointer;
-    padding: .5rem 1rem;
-    width: 80%;
+}
 }

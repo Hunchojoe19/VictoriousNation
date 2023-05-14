@@ -1,3 +1,4 @@
+
 import React from 'react'
 import './secondNextPage.css'
 import VNCLogo from './../assets/images/VNCLogo.png'
@@ -90,7 +91,7 @@ const SecondNextPage = () => {
                   <div className="upcoming-services-div">
                     <div style={{ width: '240px'}}/>
                     <div className="first-service-div">
-                      <div style={{height: '20px'}}></div>
+                      <div style={{height: '3%'}}></div>
                       <div className="div1">
                           <h2>This Month</h2>
                       </div>
@@ -137,9 +138,9 @@ const SecondNextPage = () => {
                       </div>
                       </div>
                     </div>
-                    <div style={{width: '50px'}}/>
+                    <div style={{width: '3%'}}/>
                     <div className="second-service-div">
-                      <div style={{height: '20px'}}></div>
+                      <div style={{height: '3%'}}></div>
                       <div className="div1">
                           <h2>This Month</h2>
                       </div>
@@ -180,9 +181,9 @@ const SecondNextPage = () => {
                       </div>
                       </div>
                     </div>
-                    <div style={{width: '50px'}}/>
+                    <div style={{width: '3%'}}/>
                     <div className="third-service-div">
-                      <div style={{height: '20px'}}></div>
+                      <div style={{height: '3%'}}></div>
                       <div className="div1">
                           <h2>This Month</h2>
                       </div>
@@ -227,9 +228,9 @@ const SecondNextPage = () => {
                       </div>
                       </div>
                     </div>
-                    <div style={{width: '50px'}}/>
+                    <div style={{width: '3%'}}/>
                     <div className="fourth-service-div">
-                      <div style={{height: '20px'}}></div>
+                      <div style={{height: '3%'}}></div>
                       <div className="div1">
                           <h2>This Month</h2>
                       </div>
@@ -275,7 +276,7 @@ const SecondNextPage = () => {
                     </div>
                   </div>
             </div>
-            <div style={{height: "50px"}}/>
+            <div style={{height: '10%'}}/>
             <Footer/>
         </div>
     </div>

@@ -1,8 +1,11 @@
+@media screen and (min-width: 900px) {  
 .givePage-main_container{
+    width: 100vw;
     height: 120vh;
 }
 .givePage-second_container{
     height: 100%;
+    width: 100%;
     background-image: url('./../assets/images/GivePage.png');
     background-size: cover;
 }
@@ -56,4 +59,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
 }

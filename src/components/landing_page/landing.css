@@ -1,5 +1,7 @@
+@media screen and (min-width: 900px) {
 #main-container{
     height: 120vh;
+    width: 100vw;
 }
 #second-container{
     height: 100%;
@@ -7,19 +9,18 @@
     background-size: cover;
 }
 .empty-container{
-    /* background-color: red; */
     width: 80vw;
     height: 200px;
 }
 .empty-write-up{
     width: 80vw;
-    height: 180px;
-    /* background-color: green; */
+    height: 20vh;
+
 }
 .main-write-up{
     width: 80vw;
     height: 200px;
-    /* background-color: white; */
+ 
     align-items: center;
     justify-content: center;
 }
@@ -65,4 +66,5 @@
 .icon{
     width: 60vw;
     height: 180px;
+}
 }

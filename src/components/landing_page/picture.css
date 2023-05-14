@@ -1,12 +1,14 @@
+@media screen and (min-width: 900px) {
 .picture-container{
     height: 60vh;
-    /* background-color: black; */
+    width: 100vw;
     margin: -3rem 0;
+    background-image: url('../assets/images/VNC.png');
+    background-size: cover;
 }
 .picture-second{
     height: 100%;
-    background-image: url('../assets/images/VNC.png');
-    background-size: cover;
+    width: 100%;  
 }
 .details-container{
     width: 100%;
@@ -15,16 +17,18 @@
     justify-content: space-between;
 }
 .image-cover{
-    margin: 10rem 8.2rem;
+    margin-top: 10rem;
+    margin-left: 8.4rem;
     background-color: rgb(206, 204, 204);
-    width: 29.3%;
+    width: 30%;
     height: 77%;
 }
 .image-cover img{
-    margin: -4.4rem 1rem;
+    margin-top: -4rem;
 }
 .about-vnc{
-    margin: 10rem 4rem;
+    margin: 10rem;
+    margin-left: 4rem;
     width: 50%;
     height: 74%;
 }
@@ -35,8 +39,6 @@
     font-size: 53px;
     line-height: 0px;
     width: 100%;
-    /* identical to box height, or 0% */
-
     display: flex;
     align-items: center;
     text-transform: uppercase;
@@ -51,8 +53,6 @@
     font-weight: 300;
     font-size: 20px;
     line-height: 33px;
-    /* or 189% */
-
     display: flex;
     align-items: center;
     text-align: justify;
@@ -62,4 +62,5 @@
 }
 #paragraph{
     margin: 1rem 0;
+}
 }

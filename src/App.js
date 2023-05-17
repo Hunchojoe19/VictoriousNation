@@ -1,10 +1,13 @@
 import "./App.css";
-        <Route path="/" element={<Landing />} />
-        <Route path="/campuses" element={<SecondPage />} />
-        <Route path="/about_vcn" element={<Picture />} />
-        <Route path="/donate" element={<GivePage />} />
-      </Route>
-    </Routes>
+import Footer from "./components/reusables/Footer";
+import NavBar from "./components/reusables/NavBar";
+
+function App() {
+  return (
+    <div className="app">
+      <NavBar />
+      <Footer />
+    </div>
   );
 }
 

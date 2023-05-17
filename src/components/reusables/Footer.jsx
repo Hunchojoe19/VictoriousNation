@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import whiteLogo from '../../assets/images/whiteLogo.png'
+import whiteLogo from '../assets/images/whiteLogo.png'
 import { BsFacebook, BsLinkedin, BsTwitter } from 'react-icons/bs'
 
 const Footer = () => {
@@ -64,4 +64,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

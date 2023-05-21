@@ -26,7 +26,7 @@
     height: 100%;
 }
 .vcn-logo-part{
-    width: 30%;
+    width: 170px;
     height: 100%;
 }
 .vcn-logo-part img {
@@ -59,7 +59,7 @@
 
 }
 .both p{
-    font-family: 'Bebas Neue';
+    font-family: 'Roboto';
     font-style: thin;
     font-weight: lighter;
     font-size: 18px;

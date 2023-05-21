@@ -18,7 +18,7 @@ const NavBar = () => {
                 </div>
                </div>
             </div>
-            <div style={{ width: '15vw', height: '100%'}}/>
+            <div style={{ width: '20vw', height: '100%'}}/>
             <div className='menu-list'>
                 <div>
                     <a href="/">Home</a>

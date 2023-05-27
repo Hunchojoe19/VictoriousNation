@@ -1,119 +1,119 @@
-.navbar{
-    width: 100vw;
-    height: 100px;
+.navbar {
+  width: 100%;
+  height: 100px;
 }
-.nav{
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, #582B56 17.6%, #1D184E 61.22%);
-    background-blend-mode: multiply; 
-    top: 0;
-    display: flex;
-    position: sticky;   
+.nav {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #582b56 17.6%, #1d184e 61.22%);
+  background-blend-mode: multiply;
+  top: 0;
+  display: flex;
+  position: sticky;
 }
-.navbar-div{
-    width: 30%;
-    height: 100%;
-    display: flex;
+.navbar-div {
+  width: 30%;
+  height: 100%;
+  display: flex;
 }
-.vcn-logo{
-    height: 100%;
-    display: flex;
+.vcn-logo {
+  height: 100%;
+  display: flex;
 }
-.image-position{
-    display: flex;
-    width: 30vw;
-    height: 100%;
+.image-position {
+  display: flex;
+  width: 30vw;
+  height: 100%;
 }
-.vcn-logo-part{
-    width: 170px;
-    height: 100%;
+.vcn-logo-part {
+  width: 170px;
+  height: 100%;
 }
 .vcn-logo-part img {
-    margin-top: .3rem;
-    width: 60%;
-    height: 90%;
-    margin-left: 2rem;
+  margin-top: 0.3rem;
+  width: 60%;
+  height: 90%;
+  margin-left: 2rem;
 }
-.victorious{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 1rem;
+.victorious {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1rem;
 }
-.both{
-    width: 80%;
-    height: 100%;
+.both {
+  width: 80%;
+  height: 100%;
 }
-.both h4{
-    width: 100%;
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-
+.both h4 {
+  width: 100%;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 4px;
 }
-.both p{
-    font-family: 'Roboto';
-    font-style: thin;
-    font-weight: lighter;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ede5e5;
+.both p {
+  font-family: "Roboto";
+  font-style: thin;
+  font-weight: lighter;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ede5e5;
 }
-.menu-list{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 30%;
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
 }
-.menu-list div{
-    display: flex;
-    width: 103rem;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+.menu-list div {
+  display: flex;
+  width: 103rem;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 .menu-list div a {
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-    text-decoration: none;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
 }
 .menu-list div:hover {
-    border: 2px solid rgba(196, 67, 124, 0.5);
+  border: 2px solid rgba(196, 67, 124, 0.5);
 }
-.butn{
-    display: flex;
-    width: 10rem;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+.butn {
+  display: flex;
+  width: 10rem;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
-.butn button{
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    width: 80%;
-    height: 60%;
-    background: #C4437C;
-    backdrop-filter: blur(2px);
-    border-radius: 12px;
-    border: none;
-    color: white;
-    font-size: 1.2rem;
-    cursor: pointer;
+.butn button {
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 80%;
+  height: 60%;
+  background: #c4437c;
+  backdrop-filter: blur(2px);
+  border-radius: 12px;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
 }

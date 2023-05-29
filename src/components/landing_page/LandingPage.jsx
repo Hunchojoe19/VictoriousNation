@@ -39,7 +39,7 @@ const LandingPage = () => {
               style={{
                 color: "white",
                 marginLeft: "-10rem",
-                marginTop: "2rem",
+                marginTop: "3rem",
               }}
             />
           </div>

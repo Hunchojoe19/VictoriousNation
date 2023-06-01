@@ -1,6 +1,6 @@
 import React from "react";
 import JoePhoto from "./../assets/images/JoePhoto.png";
-import { Card, Container } from "@mui/material";
+import { Container } from "@mui/material";
 import Footer from "../reusables/Footer";
 
 const Joseph = () => {

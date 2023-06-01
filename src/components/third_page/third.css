@@ -1,0 +1,10 @@
+.givecontainer {
+  width: 100%;
+  height: 75%;
+  background-image: url("../assets/images/GivePage.png");
+  background-size: cover;
+}
+.thirdPage_text {
+  width: 100%;
+  height: 15%;
+}

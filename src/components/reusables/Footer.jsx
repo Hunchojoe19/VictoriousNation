@@ -34,21 +34,18 @@ const Footer = () => {
             <div style={{ height: "15%" }}></div>
             <div className="social-media">
               <div className="facebook">
-                {" "}
                 <BsFacebook
                   size={25}
                   style={{ color: "white", cursor: "pointer" }}
                 />
               </div>
               <div className="twitter">
-                {" "}
                 <BsTwitter
                   size={25}
                   style={{ color: "white", cursor: "pointer" }}
                 />
               </div>
               <div className="linkedin">
-                {" "}
                 <BsLinkedin
                   size={25}
                   style={{ color: "white", cursor: "pointer" }}

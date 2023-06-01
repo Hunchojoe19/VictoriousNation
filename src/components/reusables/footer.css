@@ -1,4 +1,4 @@
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 1500px) {
   .footer-main-contaier {
     background: linear-gradient(90deg, #c4437c 7.4%, #4a044f 91.91%);
     background-blend-mode: darken;

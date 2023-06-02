@@ -1,10 +1,12 @@
 import { Box, Card, CardContent, Grid, Typography } from "@mui/material";
 import React from "react";
 import "./third.css";
+import ThreeCards from "./ThreeCards";
+import Footer from "../reusables/Footer";
 
 const ThirdPage = () => {
   return (
-    <Box sx={{ background: "red", height: "160vh", width: "100%" }}>
+    <Box sx={{ height: "160vh", width: "100%" }}>
       <Grid container className="givecontainer">
         <Grid item className="thirdPage_text" />
         <Card sx={{ background: "transparent", height: 390 }} />
@@ -32,14 +34,14 @@ const ThirdPage = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Card
-        sx={{
+      <div
+        style={{
           width: "100%",
           height: "350px",
         }}
       >
-        <CardContent
-          sx={{
+        <div
+          style={{
             marginTop: "4rem",
             // background: "green",
             display: "flex",
@@ -93,8 +95,10 @@ const ThirdPage = () => {
             Please choose a fund to give towards and enter an amount for your
             gift.
           </Typography>
-        </CardContent>
-      </Card>
+        </div>
+      </div>
+      <ThreeCards />
+      <Footer />
     </Box>
   );
 };

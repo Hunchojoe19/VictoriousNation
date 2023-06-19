@@ -2,12 +2,14 @@ import React from "react";
 import JoePhoto from "./../assets/images/JoePhoto.png";
 import { Container } from "@mui/material";
 import Footer from "../reusables/Footer";
+import victory1 from "../assets/images/victory1.png";
+import victory2 from "../assets/images/victory2.png";
 
 const Joseph = () => {
   return (
     <div className="joseph-container">
       <div className="joseph-support"></div>
-      <Container maxWidth="xl" sx={{ height: "550px" }}>
+      <Container maxWidth="xl" sx={{ height: "600px" }}>
         <div className="joseph-pic">
           <div className="image">
             <img src={JoePhoto} alt="joseph&jorginha" />
@@ -33,15 +35,24 @@ const Joseph = () => {
           </div>
         </div>
       </Container>
-      <Container maxWidth="xl" sx={{ height: "70vh" }}>
-        <div className="church-relevant">
-          <div className="relevance">
-            <h2>A CHURCH RELEVANT TO OUR CULTURE</h2>
-            <p>
-              Our desire is certainly to be an “outward” facing church. As a
-              result, we’re committed to serving the last, the lost, and least.
-            </p>
+      <Container maxWidth="xl" sx={{ height: "100vh" }}>
+        <div
+          className="church-relevant"
+          style={{ height: "344px", marginBottom: "5rem" }}
+        >
+          <div className="image1">
+            <img src={victory1} alt="victory-logo" />
           </div>
+          <div className="image2">
+            <img src={victory2} alt="victory-logo" />
+          </div>
+        </div>
+        <div className="belief-cards">
+          <div className="belief-card1">
+            <h4>Our Beliefs</h4>
+          </div>
+          <div className="belief-card2"></div>
+          <div className="belief-card3"></div>
         </div>
       </Container>
       <Footer />

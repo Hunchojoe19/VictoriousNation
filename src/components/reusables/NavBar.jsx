@@ -16,7 +16,6 @@ const NavBar = () => {
             </div>
             <div className="victorious">
               <div className="both">
-                {" "}
                 <h4>VICTORIOUS</h4>
               </div>
               <div className="both">

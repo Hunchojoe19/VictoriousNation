@@ -76,13 +76,13 @@
   display: flex;
 }
 .image {
-  width: 500px;
+  width: 650px;
   height: 500px;
   margin-left: 2rem;
   margin-top: 3rem;
 }
 .image img {
-  width: 27vw;
+  width: 100%;
   height: 100%;
   background-color: rgb(208, 195, 195);
   border-radius: 5px;
@@ -103,6 +103,7 @@
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  text-shadow: none;
   color: #4a044f;
 }
 .about-vcn p {
@@ -126,7 +127,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 .relevance {
   display: flex;
@@ -141,7 +141,7 @@
   font-weight: 400;
   font-size: 60px;
   line-height: 80px;
-
+  text-shadow: none;
   display: flex;
   align-items: center;
   text-transform: uppercase;
@@ -164,4 +164,45 @@
   text-align: center;
 
   color: #000000;
+}
+.image1 {
+  width: 335px;
+  height: 100%;
+}
+.image2 {
+  width: 718px;
+  height: 100%;
+}
+.belief-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.belief-card1 {
+  height: 416px;
+  width: 400px;
+  background-image: url("../assets/images/belief.png");
+}
+.belief-card2 {
+  height: 416px;
+  width: 400px;
+  background-image: url("../assets/images/acceleration.png");
+}
+.belief-card3 {
+  height: 416px;
+  width: 400px;
+  background-image: url("../assets/images/generosity.png");
+}
+.belief-card1 h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  margin-top: 10.5rem;
 }

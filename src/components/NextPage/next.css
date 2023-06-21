@@ -34,14 +34,14 @@ h2 p {
 }
 .cards-card {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin-top: 8rem;
 }
 .card1 {
   background-color: red;
-  width: 24vw;
-  height: 465px;
+  height: 350px;
 }
 .card-content {
   display: flex;
@@ -116,4 +116,50 @@ h2 p {
 }
 .list-typo {
   color: #161722;
+}
+.flyer-card {
+  display: flex;
+}
+.flyer-card1 {
+  width: 335px;
+  height: 344px;
+  background-image: url("../assets/images/victory1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.flyer-card2 {
+  width: 750px;
+  height: 344px;
+  background-image: url("../assets/images/victory2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flyer-card2 button {
+  width: 278px;
+  height: 67px;
+  background: #c4437c;
+  backdrop-filter: blur(2px);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-family: "Quicksand";
+  font-size: 16px;
+  margin-top: 13rem;
+  margin-left: 10.8rem;
+  cursor: pointer;
+}
+.flyer2-card1 {
+  box-sizing: border-box;
+  width: 1151.45px;
+  height: 370px;
+  background: url("../assets/images/opulent.png");
+  border: 2px solid #c4437c;
+  border-radius: 10px;
+}
+.card1 {
+  background-color: red;
+  height: 450px;
 }

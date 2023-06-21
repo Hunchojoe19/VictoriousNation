@@ -2,14 +2,12 @@ import {
   Box,
   Container,
   Card,
-  CardContent,
   Typography,
   Grid,
+  CardContent,
 } from "@mui/material";
 import React from "react";
 import Footer from "../reusables/Footer";
-import VNCLogo from "../assets/images/VNCLogo.png";
-import opu from "../assets/images/opu.png";
 import { RiMapPin3Line } from "react-icons/ri";
 import { AiOutlineClockCircle } from "react-icons/ai";
 
@@ -21,241 +19,48 @@ const Cards = () => {
           <div className="card1">
             <Card
               sx={{
-                width: "100%",
+                width: "70rem",
                 height: "100%",
-                border: "3px solid #C4437C",
+                border: "none",
+                boxShadow: "none",
               }}
             >
-              <CardContent>
-                <div className="card-content">
-                  <div className="cards-img">
-                    <img src={VNCLogo} alt="VNC logo" />
-                  </div>
-                  <div
-                    style={{
-                      height: "203px",
-                      border: "1px solid #4A044F",
-                      marginLeft: "3rem",
-                      marginTop: ".6rem",
-                    }}
-                  />
-                  <div>
-                    <div>
-                      <Typography
-                        variant="h4"
-                        sx={{
-                          fontFamily: "Quicksand",
-                          fontStyle: "normal",
-                          fontWeight: "300",
-                          fontSize: "35px",
-                          lineHeight: "99%",
-                          display: "flex",
-                          alignItems: "center",
-                          textAlign: "center",
-                          color: "#4A044F",
-                          marginTop: "3rem",
-                          marginBottom: "1rem",
-                        }}
-                      >
-                        Online Campus
-                      </Typography>
-                      <button className="cards-button">Join Online</button>
-                    </div>
+              <CardContent
+                sx={{
+                  width: "100%",
+                  height: "100%",
+                  marginBottom: "5rem",
+                }}
+              >
+                <div className="flyer-card">
+                  <div className="flyer-card1"></div>
+                  <div className="flyer-card2">
+                    <button>Join Online</button>
                   </div>
                 </div>
               </CardContent>
-              <CardContent sx={{ marginTop: "2rem" }}>
-                <Typography
-                  sx={{
-                    fontFamily: "Quicksand",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    fontSize: "23px",
-                    lineHeight: "99%",
-                    marginLeft: "1.5rem",
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#4A044F",
-                    marginBottom: "1.5rem",
-                  }}
-                >
-                  Pastor Joseph & Jorgina Ante
-                </Typography>
-                <Typography
-                  sx={{
-                    fontFamily: "Quicksand",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    fontSize: "22px",
-                    lineHeight: "150%",
-                    marginLeft: "1.5rem",
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#C4437C",
-                    marginBottom: "1.5rem",
-                  }}
-                >
-                  2936 A Griffin Ln Heartland, TX 75126 <br />
-                  +1 (469) 514-0855
-                </Typography>
-              </CardContent>
             </Card>
           </div>
-          <div className="card1">
+          <div className="card2">
             <Card
               sx={{
                 width: "100%",
                 height: "100%",
-                border: "3px solid #C4437C",
+                boxShadow: "none",
               }}
             >
-              <CardContent>
-                <div className="card-content">
-                  <div className="cards-img">
-                    <img src={VNCLogo} alt="VNC logo" />
-                  </div>
-                  <div
-                    style={{
-                      height: "203px",
-                      border: "1px solid #4A044F",
-                      marginLeft: "3rem",
-                      marginTop: ".6rem",
-                    }}
-                  />
-                  <div>
-                    <div className="opu-image">
-                      <img src={opu} alt="opulent" />
-                    </div>
-                  </div>
+              <CardContent
+                sx={{
+                  width: "100%",
+                  height: "100%",
+                }}
+              >
+                <div className="flyer-card">
+                  <div className="flyer2-card1"></div>
                 </div>
-              </CardContent>
-              <CardContent sx={{ marginTop: "1.3rem" }}>
-                <Typography
-                  sx={{
-                    fontFamily: "Quicksand",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    fontSize: "23px",
-                    lineHeight: "99%",
-                    marginLeft: "1.5rem",
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#4A044F",
-                    marginBottom: "1rem",
-                  }}
-                >
-                  Pastor Opulent & Gift Emmanuel
-                </Typography>
-                <Typography
-                  sx={{
-                    fontFamily: "Quicksand",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    fontSize: "22px",
-                    lineHeight: "150%",
-                    marginLeft: "1.5rem",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    textAlign: "center",
-                    color: "#C4437C",
-                    marginBottom: "1.5rem",
-                  }}
-                >
-                  37, Mary Hanney Rd, <br /> Oron, Akwa-Ibom State <br />
-                  +234 706-484-8253
-                </Typography>
               </CardContent>
             </Card>
           </div>
-          {/* <div className="card3">
-            <Card
-              sx={{
-                width: "100%",
-                height: "100%",
-                border: "3px solid #C4437C",
-              }}
-            >
-              <CardContent>
-                <div className="card-content">
-                  <div className="cards-img">
-                    <img src={VNCLogo} alt="VNC logo" />
-                  </div>
-                  <div
-                    style={{
-                      height: "203px",
-                      border: "1px solid #4A044F",
-                      marginLeft: "3rem",
-                      marginTop: ".6rem",
-                    }}
-                  />
-                  <div>
-                    <div>
-                      <Typography
-                        variant="h4"
-                        sx={{
-                          fontFamily: "Quicksand",
-                          fontStyle: "normal",
-                          fontWeight: "300",
-                          fontSize: "35px",
-                          lineHeight: "99%",
-                          display: "flex",
-                          alignItems: "center",
-                          textAlign: "center",
-                          color: "#4A044F",
-                          marginTop: "3rem",
-                          marginBottom: "1rem",
-                        }}
-                      >
-                        Online Campus
-                      </Typography>
-                      <button className="cards-button">Join Online</button>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-              <CardContent sx={{ marginTop: "2rem" }}>
-                <Typography
-                  sx={{
-                    fontFamily: "Quicksand",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    fontSize: "23px",
-                    lineHeight: "99%",
-                    marginLeft: "1.5rem",
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#4A044F",
-                    marginBottom: "1.5rem",
-                  }}
-                >
-                  Pastor Joseph & Jorgina Ante
-                </Typography>
-                <Typography
-                  sx={{
-                    fontFamily: "Quicksand",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    fontSize: "22px",
-                    lineHeight: "150%",
-                    marginLeft: "1.5rem",
-                    display: "flex",
-                    alignItems: "center",
-                    textAlign: "center",
-                    color: "#C4437C",
-                    marginBottom: "1.5rem",
-                  }}
-                >
-                  2936 A Griffin Ln Heartland, TX 75126 <br />
-                  +1 (469) 514-0855
-                </Typography>
-              </CardContent>
-            </Card>
-          </div> */}
         </div>
         <div className="upcoming-services">
           <Typography

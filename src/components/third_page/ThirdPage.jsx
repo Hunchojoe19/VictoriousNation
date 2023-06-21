@@ -1,8 +1,11 @@
-import { Box, Card, CardContent, Grid, Typography } from "@mui/material";
+import { Box, Card, CardContent, Grid } from "@mui/material";
 import React from "react";
 import "./third.css";
 import ThreeCards from "./ThreeCards";
 import Footer from "../reusables/Footer";
+import Hope from "../../components/assets/images/Hope.png";
+import Faith from "../../components/assets/images/Faith.png";
+import Love from "../../components/assets/images/Love.png";
 
 const ThirdPage = () => {
   return (
@@ -32,6 +35,73 @@ const ThirdPage = () => {
               Reaping <p>Victoriously.</p>
             </h2>
           </CardContent>
+          <CardContent
+            sx={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
+          >
+            <p
+              style={{
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "300",
+                fontSize: "19px",
+
+                color: "#FFFFFF",
+                marginRight: "2rem",
+              }}
+            >
+              Food
+            </p>
+            <span
+              style={{
+                color: "#FFF212",
+                fontSize: "2rem",
+                fontWeight: "bold",
+                marginLeft: "2rem",
+                marginBottom: "1rem",
+              }}
+            >
+              .
+            </span>
+            <p
+              style={{
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "300",
+                fontSize: "19px",
+                color: "#FFFFFF",
+                marginLeft: "2rem",
+              }}
+            >
+              Education
+            </p>
+            <span
+              style={{
+                color: "#FFF212",
+                fontSize: "2rem",
+                fontWeight: "bold",
+                marginLeft: "2rem",
+                marginBottom: "1rem",
+              }}
+            >
+              .
+            </span>
+            <p
+              style={{
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "300",
+                fontSize: "19px",
+                color: "#FFFFFF",
+                marginLeft: "2rem",
+              }}
+            >
+              Asylum
+            </p>
+          </CardContent>
         </Card>
       </Grid>
       <div
@@ -42,59 +112,57 @@ const ThirdPage = () => {
       >
         <div
           style={{
-            marginTop: "4rem",
+            marginTop: "2rem",
             // background: "green",
             display: "flex",
             justifyContent: "center",
-            flexDirection: "column",
+            flexDirection: "row",
             alignItems: "center",
           }}
         >
-          <Typography
-            variant="h3"
-            sx={{
-              fontFamily: "Bebas Neue",
-              fontStyle: "normal",
-              fontWeight: "400",
-              lineHeight: "180%",
-              marginBottom: "1rem",
-              textTransform: "uppercase",
-
-              background: "linear-gradient(90deg, #C4437C 2.57%, #4A044F 100%)",
-              webkitBackgroundClip: "text",
-              webkitTextFillColor: "transparent",
-              backgroundClip: "text",
-              textFillColor: "transparent",
-              backgroundBlendMode: "multiply",
+          <div className="hope-div">
+            <img src={Hope} alt="hope" />
+            <h2>HOPE</h2>
+            <p>
+              Many people have suffered under abuse and rejection. The most
+              powerful gift you can give towards restoration, is the Gospel of
+              Christ. Only through God’s love can they achieve the potential
+              they have been called to.
+            </p>
+          </div>
+          <div
+            style={{
+              border: "1px solid #D9D9D9",
+              width: "2px",
+              height: "450px",
             }}
-          >
-            THANK YOU FOR YOUR GENEROUSITY
-          </Typography>
-          <Typography
-            variant="h6"
-            sx={{
-              fontFamily: "Inter",
-              fontStyle: "normal",
-              fontWeight: "300",
-              fontSize: "19px",
-              lineHeight: "180%",
-
-              display: "flex",
-              alignItems: "center",
-              textAlign: "center",
-
-              color: "#000000",
+          />
+          <div className="faith-div">
+            <img src={Faith} alt="faith" />
+            <h2>Faith</h2>
+            <p>
+              Through your sponsorship, you are not only supporting education,
+              you are also sowing the Gospel into their lives, strengthening
+              their faith. Every beneficiary is mentored by a local church and
+              introduced to the love of Christ.
+            </p>
+          </div>
+          <div
+            style={{
+              border: "1px solid #D9D9D9",
+              width: "2px",
+              height: "450px",
             }}
-          >
-            We appreciate you for taking ownership in what God is doing through
-            the VNC. <br />
-            Your giving is making a difference in this church, our community,
-            and the world.
-            <br /> We are sure that God’s promises will be fulfilled through
-            your generosity. <br />
-            Please choose a fund to give towards and enter an amount for your
-            gift.
-          </Typography>
+          />
+          <div className="love-div">
+            <img src={Love} alt="love" />
+            <h2>Love</h2>
+            <p>
+              Our focus are the vulnerable and introducing them to a place of
+              acceptance, love and support. Their success becomes our success
+              and you can be a part of it through your sponsorship.
+            </p>
+          </div>
         </div>
       </div>
       <ThreeCards />

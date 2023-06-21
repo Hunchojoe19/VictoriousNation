@@ -9,23 +9,228 @@
   height: 15%;
 }
 .give_page-cards {
-  height: 600px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .first-card-gp img {
   background-blend-mode: multiply;
-  /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25)); */
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
   border-radius: 30px;
 }
 .second-card-gp {
   background-blend-mode: multiply;
-  /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25)); */
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
   border-radius: 32px;
 }
 .last-card-gp {
   background-blend-mode: multiply;
-  /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25)); */
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
   border-radius: 30px;
+}
+.hope-div {
+  width: 33.3%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.faith-div {
+  width: 33.3%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.love-div {
+  width: 33.3%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hope-div img {
+  width: 150px;
+  height: 131px;
+  margin-bottom: 2rem;
+}
+.hope-div h2 {
+  width: 95px;
+  height: 71.75px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-shadow: none;
+  color: #c4437c;
+}
+.hope-div p {
+  width: 310px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.love-div img {
+  width: 150px;
+  height: 131px;
+  margin-bottom: 2rem;
+}
+.love-div h2 {
+  width: 95px;
+  height: 71.75px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-shadow: none;
+  color: #c4437c;
+}
+.love-div p {
+  width: 310px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.faith-div img {
+  width: 150px;
+  height: 131px;
+  margin-bottom: 2rem;
+}
+.faith-div h2 {
+  width: 95px;
+  height: 71.75px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-shadow: none;
+  color: #c4437c;
+}
+.faith-div p {
+  width: 310px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.grid-box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.small {
+  width: 32%;
+  height: 100%;
+  background-image: url("../assets/images/small.png");
+}
+.small-btn {
+  justify-content: center;
+  align-items: center;
+  margin-top: 19rem;
+  width: 198px;
+  border: none;
+  color: white;
+  height: 65.77px;
+  background: #c4437c;
+  backdrop-filter: blur(2px);
+  border-radius: 12px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  margin-left: 4rem;
+}
+.teacher {
+  width: 68%;
+  height: 100%;
+  background-image: url("../assets/images/teacher.png");
+}
+.teacher h2 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin-left: 2.6rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #c4437c;
+}
+.teacher p {
+  width: 625px;
+  height: 144.5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.scholarship {
+  /* background-color: red; */
+  width: 20%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.scholarship p {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  width: 63px;
+  height: 27.9px;
+  margin-right: 3rem;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }

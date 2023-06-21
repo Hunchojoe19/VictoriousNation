@@ -5,13 +5,14 @@ import regular from "../assets/images/regular.png";
 import supplies from "../assets/images/supplies.png";
 import uniforms from "../assets/images/uniforms.png";
 import items from "../assets/images/items.png";
+import handsup from "../assets/images/handsup.png";
 
 const ThreeCards = () => {
   return (
     <Box
       sx={{
         width: "100%",
-        height: "90vh",
+        minHeight: "120vh",
         backgroundColor: "rgba(229, 229, 229, 0.25)",
         backgroundBlendMode: "multiply",
         marginTop: "7.5rem",
@@ -89,6 +90,53 @@ const ThreeCards = () => {
                   <p>OTHER ITEMS AS NEEDED</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </Grid>
+        <Grid
+          sx={{
+            display: "flex",
+            width: "95%",
+            height: "500px",
+            marginTop: "5rem",
+          }}
+        >
+          <div className="nurses">
+            <h2>Medical outreach</h2>
+            <p>
+              We provide medical, spiritual, and ﬁnancial support to the
+              elderly, sexually abused victims, nursing mothers. Help us empower
+              women and children who are victims of domestic violence and
+              Gender-Based Violence by supplying basic food necessities and
+              hygiene kits.
+            </p>
+            <button className="nurse-btn">Give Now</button>
+          </div>
+        </Grid>
+        <Grid
+          sx={{
+            display: "flex",
+            width: "95%",
+            height: "450px",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <div className="three-hands">
+            <div className="three-divs">
+              <img src={handsup} alt="hands up" />
+              <h2>VOLUNTEER & GET INVOLVED</h2>
+            </div>
+            <div className="three-divs2">
+              <div>
+                <p>
+                  Get involved in a variety of ways and become part of a team
+                  that is changing the world one soul at a time.
+                </p>
+                <p id="call_us">Call Us</p>
+                <p id="phone_no"> +1 (469)-514-0855</p>
+              </div>
+              <button className="register_card">Register</button>
             </div>
           </div>
         </Grid>

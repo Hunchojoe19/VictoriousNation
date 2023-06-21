@@ -174,6 +174,7 @@
   line-height: 16px;
   text-align: center;
   margin-left: 4rem;
+  cursor: pointer;
 }
 .teacher {
   width: 68%;
@@ -233,4 +234,144 @@
   text-transform: uppercase;
 
   color: #ffffff;
+}
+.nurses {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/images/nurses.png");
+}
+.nurses h2 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin-left: 5rem;
+  margin-top: 3.6rem;
+  color: #c4437c;
+}
+.nurses p {
+  width: 590px;
+  height: 201.5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+  color: #ffffff;
+}
+.nurse-btn {
+  justify-content: center;
+  align-items: center;
+  width: 198px;
+  border: none;
+  color: white;
+  height: 65.77px;
+  background: #c4437c;
+  backdrop-filter: blur(2px);
+  border-radius: 12px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  margin-left: 6rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.three-hands {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.three-divs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.three-divs h2 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 100%;
+  width: 187px;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-shadow: none;
+  color: #c4437c;
+}
+.three-divs2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.three-divs2 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+#call_us {
+  margin-top: 1rem;
+  font-family: "Inter";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#phone_no {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.register_card {
+  justify-content: center;
+  align-items: center;
+  width: 198px;
+  border: none;
+  color: white;
+  height: 65.77px;
+  background: #c4437c;
+  backdrop-filter: blur(2px);
+  border-radius: 12px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 2rem;
+  cursor: pointer;
 }

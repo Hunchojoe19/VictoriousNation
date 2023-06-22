@@ -30,13 +30,13 @@ const NavBar = () => {
             <a href="/">Home</a>
           </div>
           <div>
-            <a href="about/">About VNC</a>
+            <a href="/about">About VNC</a>
           </div>
           <div>
             <a href="/nextpage">Campuses</a>
           </div>
           <div>
-            <a href="contact/">Contact Us</a>
+            <a href="#">Contact Us</a>
           </div>
         </div>
         <div className="butn">

@@ -6,6 +6,10 @@ import supplies from "../assets/images/supplies.png";
 import uniforms from "../assets/images/uniforms.png";
 import items from "../assets/images/items.png";
 import handsup from "../assets/images/handsup.png";
+import Ja from "../assets/images/Ja.jpg";
+import Jo from "../assets/images/Jo.jpg";
+import Ignite from "../assets/images/Ignite.png";
+import NBGN from "../assets/images/NBGN.png";
 
 const ThreeCards = () => {
   return (
@@ -27,23 +31,15 @@ const ThreeCards = () => {
           alignItems="center"
         >
           <div className="give_page-cards">
-            {/* <div className="first-card-gp">
-              <img src={taskForce} alt="taskforce-logo" />
-            </div>
-            <div />
-            <div className="second-card-gp">
-              <img src={ignite} alt="mentorship-logo" />
-            </div>
-            <div />
-            <div className="last-card-gp">
-              <img src={healthChat} alt="health-logo" />
-            </div> */}
+            <img src={Ja} alt="joe-ante" />
+            <img src={Ignite} alt="ignite" />
+            <img src={NBGN} alt="NBGN" />
+            <img src={Jo} alt="joe-ante-foundation" />
           </div>
         </Grid>
         <Grid
           sx={{
             display: "flex",
-
             width: "95%",
             height: "426px",
           }}

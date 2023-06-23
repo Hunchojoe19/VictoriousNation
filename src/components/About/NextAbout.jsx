@@ -1,5 +1,6 @@
 import { Box, Grid } from "@mui/material";
 import React from "react";
+import Footer from "../reusables/Footer";
 const style = {
   width: "100%",
   height: "120vh",
@@ -632,6 +633,56 @@ const NextAbout = () => {
             </div>
           </Grid>
         </Grid>
+        <Grid
+          container
+          height={400}
+          sx={{
+            background: "#1D184E",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "flex-start",
+            alignItems: "flex-start",
+          }}
+        >
+          <div className="leadership">
+            <h2>OUR LEADERSHIP</h2>
+          </div>
+          <div className="leader">
+            <p className="para">
+              Our Church is led by Pastors Joseph and Jorgina Ante supported by
+              a team of pastors and ministers who are committed to the
+              Victorious Nation Church’s God-given mandate to make greatness
+              common.
+            </p>
+          </div>
+          <div className="lead-btn">
+            <button>Meet Pastor Joseph</button>
+          </div>
+        </Grid>
+        <Grid
+          container
+          sx={{
+            minHeight: "70vh",
+            display: "flex",
+            flexDirection: "column",
+            // justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <div className="relevant">
+            <h2>A CHURCH RELEVANT TO OUR CULTURE</h2>
+            <p>
+              Our desire is certainly to be an “outward” facing church. As a
+              result, we’re committed to serving the last, the lost, and least.
+            </p>
+          </div>
+          <div className="the_three_cards">
+            <div className="one-card"></div>
+            <div className="two-card"></div>
+            <div className="three-card"></div>
+          </div>
+        </Grid>
+        <Footer />
       </div>
     </Box>
   );

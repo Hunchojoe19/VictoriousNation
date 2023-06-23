@@ -1,8 +1,9 @@
-import { Box } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import React from "react";
 const style = {
   width: "100%",
   height: "120vh",
+  flexGrow: 1,
 };
 const NextAbout = () => {
   return (
@@ -47,6 +48,590 @@ const NextAbout = () => {
             God.
           </p>
         </div>
+      </div>
+      <div className="our-beliefs">
+        <div
+          style={{
+            width: "300px",
+            height: "200px",
+            display: "flex",
+            justifyContent: "flex-start",
+            marginLeft: "16.3rem",
+          }}
+        >
+          <h2 className="h3">OUR BELIEFS</h2>
+        </div>
+        <Grid
+          container
+          spacing={1}
+          sx={{
+            height: "100%",
+            // background: "blue",
+            width: "80%",
+            marginLeft: "15rem",
+          }}
+        >
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "rgba(196, 67, 124, 0.5)",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The Scriptures Inspired
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "rgba(196, 67, 124, 0.5)",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The One True God
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "rgba(196, 67, 124, 0.5)",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The Diety Of The Lord Jesus Christ
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "rgba(196, 67, 124, 0.5)",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The Fall Of Man
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "#C4437C",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The Salvation Of Man
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "#C4437C",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The Ordinances Of The Church
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "#C4437C",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The Baptism In The Holy Ghost
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "#C4437C",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+                textAlign: "center",
+                color: "#FFFFFF",
+              }}
+            >
+              The Initial Physical Evidence Of The Baptism In The Holy Ghost
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "#4A044F",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              Sanctification
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "#4A044F",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The Church and its Mission
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "#4A044F",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The Ministry
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "#4A044F",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              Divine Healing
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "#17143E",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The Blessed Hope
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "#17143E",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The Millennial Reign Of Christ
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "#17143E",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The Final Judgment
+            </div>
+          </Grid>
+          <Grid
+            item
+            sm={6}
+            md={3}
+            lg={3}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                background: "red",
+                width: "350px",
+                height: "120px",
+                background: "#17143E",
+                borderRadius: "10px",
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "15px",
+                lineHeight: "26px",
+                /* identical to box height, or 177% */
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                letterSpacing: "-0.04em",
+
+                color: "#FFFFFF",
+              }}
+            >
+              The New Heaven and The New Earth
+            </div>
+          </Grid>
+        </Grid>
       </div>
     </Box>
   );

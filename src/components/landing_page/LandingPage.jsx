@@ -1,6 +1,7 @@
 import React from "react";
 import "./landingPage.css";
 import { BsArrowDownShort } from "react-icons/bs";
+import Footer from "../reusables/Footer";
 import Joseph from "./Joseph";
 import Box from "@mui/material/Box";
 const styles = {

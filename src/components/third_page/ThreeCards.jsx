@@ -8,7 +8,7 @@ import items from "../assets/images/items.png";
 import handsup from "../assets/images/handsup.png";
 import Ja from "../assets/images/Ja.jpg";
 import Jo from "../assets/images/Jo.jpg";
-import Ignite from "../assets/images/Ignite.png";
+import Ignite from "../assets/images/ignite.png";
 import NBGN from "../assets/images/NBGN.png";
 
 const ThreeCards = () => {

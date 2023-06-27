@@ -27,7 +27,7 @@ const NavBar = () => {
         <div style={{ width: "20vw", height: "100%" }} />
         <div className="menu-list">
           <div>
-            <a href="/">Home</a>
+            <a href="/home">Home</a>
           </div>
           <div>
             <a href="/about">About VNC</a>

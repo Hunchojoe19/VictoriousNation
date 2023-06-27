@@ -57,7 +57,9 @@ const Joseph = () => {
             <div className="belief-card3"></div>
           </div>
         </Container>
-        <Footer />
+        <div style={{ marginTop: "3rem" }}>
+          <Footer />
+        </div>
       </div>
     </Box>
   );

@@ -234,7 +234,7 @@ const Cards = () => {
                           height: "20%",
                         }}
                       >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */}
                       </Typography>
                       <Typography
                         style={{
@@ -335,7 +335,7 @@ const Cards = () => {
                         height: "20%",
                       }}
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */}
                     </Typography>
                     <Typography
                       style={{
@@ -382,8 +382,8 @@ const Cards = () => {
                           marginTop: ".5rem",
                         }}
                       >
-                        No 233 Main St. New York, <br />
-                        United States
+                        37, Mary Hanney Rd, Oron, <br />
+                        Akwa-Ibom State, Nigeria.
                       </Typography>
                     </Typography>
                   </div>
@@ -437,7 +437,7 @@ const Cards = () => {
                         height: "20%",
                       }}
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */}
                     </Typography>
                     <Typography
                       style={{
@@ -484,8 +484,8 @@ const Cards = () => {
                           marginTop: ".5rem",
                         }}
                       >
-                        No 233 Main St. New York, <br />
-                        United States
+                        37, Mary Hanney Rd, Oron, <br />
+                        Akwa-Ibom State, Nigeria.
                       </Typography>
                     </Typography>
                   </div>

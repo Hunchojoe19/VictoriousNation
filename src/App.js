@@ -12,7 +12,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route exact path="/nextpage" element={<NextPage />} />
-        <Route exact path="/home" element={<LandingPage />} />
+        <Route exact path="/" element={<LandingPage />} />
         <Route path="/donations" element={<ThirdPage />} />
         <Route path="/about" element={<About_Us />} />
       </Routes>

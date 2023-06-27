@@ -1,6 +1,5 @@
 {
   "name": "church",
-  "homepage": "http://VictoriousNation.com/home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

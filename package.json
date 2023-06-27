@@ -1,7 +1,6 @@
 {
   "name": "church",
   "version": "0.1.0",
-  "homepage": "http://hunchojoe19.github.io/VictoriousNation",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",

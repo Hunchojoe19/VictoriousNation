@@ -57,7 +57,7 @@ const NextAbout = () => {
             height: "200px",
             display: "flex",
             justifyContent: "flex-start",
-            marginLeft: "16.3rem",
+            marginLeft: "11.3rem",
           }}
         >
           <h2 className="h3">OUR BELIEFS</h2>
@@ -69,7 +69,7 @@ const NextAbout = () => {
             height: "100%",
             // background: "blue",
             width: "80%",
-            marginLeft: "15rem",
+            marginLeft: "11.3rem",
           }}
         >
           <Grid

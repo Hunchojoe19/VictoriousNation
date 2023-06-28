@@ -1,4 +1,4 @@
-import { Box, Container, Grid } from "@mui/material";
+import { Box, Container, Grid, Modal } from "@mui/material";
 import React from "react";
 import scholarship from "../assets/images/scholarship.png";
 import regular from "../assets/images/regular.png";
@@ -10,8 +10,34 @@ import Ja from "../assets/images/Ja.jpg";
 import Jo from "../assets/images/Jo.jpg";
 import Ignite from "../assets/images/ignite.png";
 import NBGN from "../assets/images/NBGN.png";
+import Flutterwave from "../assets/images/Flutterwave.png";
+import paypal from "../assets/images/paypal.png";
+// import Flutter from "./Flutter";
+import { useNavigate } from "react-router-dom";
+
+const style = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: 800,
+  height: 600,
+  bgcolor: "background.paper",
+  borderRadius: "10px",
+  boxShadow: 24,
+  display: "flex",
+  justifyContent: "space-between",
+  alignItems: "center",
+  p: 4,
+};
 
 const ThreeCards = () => {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+  const navigate = useNavigate();
+
   return (
     <Box
       sx={{
@@ -46,7 +72,36 @@ const ThreeCards = () => {
         >
           <div className="grid-box">
             <div className="small">
-              <button className="small-btn">Give Now </button>
+              <button className="small-btn" onClick={handleOpen}>
+                Give Now
+              </button>
+              <Modal
+                open={open}
+                onClose={handleClose}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description"
+              >
+                <Box sx={style}>
+                  <div className="paypal">
+                    <img src={paypal} alt="paypal-logo" />
+                    <button
+                      className="paypal-btn"
+                      onClick={() => navigate("/paypal")}
+                    >
+                      Pay With Paypal
+                    </button>
+                  </div>
+                  <div className="flutter">
+                    <img src={Flutterwave} alt="flutterwave-logo" />
+                    <button
+                      className="flutter-btn"
+                      onClick={() => navigate("/payment")}
+                    >
+                      Pay With Flutterwave
+                    </button>
+                  </div>
+                </Box>
+              </Modal>
             </div>
             <div className="teacher">
               <h2>Education</h2>
@@ -106,7 +161,36 @@ const ThreeCards = () => {
               Gender-Based Violence by supplying basic food necessities and
               hygiene kits.
             </p>
-            <button className="nurse-btn">Give Now</button>
+            <button className="nurse-btn" onClick={handleOpen}>
+              Give Now
+            </button>
+            <Modal
+              open={open}
+              onClose={handleClose}
+              aria-labelledby="modal-modal-title"
+              aria-describedby="modal-modal-description"
+            >
+              <Box sx={style}>
+                <div className="paypal">
+                  <img src={paypal} alt="paypal-logo" />
+                  <button
+                    className="paypal-btn"
+                    onClick={() => navigate("/paypal")}
+                  >
+                    Pay With Paypal
+                  </button>
+                </div>
+                <div className="flutter">
+                  <img src={Flutterwave} alt="flutterwave-logo" />
+                  <button
+                    className="flutter-btn"
+                    onClick={() => navigate("/payment")}
+                  >
+                    Pay With Flutterwave
+                  </button>
+                </div>
+              </Box>
+            </Modal>
           </div>
         </Grid>
         <Grid

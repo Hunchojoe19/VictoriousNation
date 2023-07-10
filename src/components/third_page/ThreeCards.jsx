@@ -214,7 +214,7 @@ const ThreeCards = () => {
                   that is changing the world one soul at a time.
                 </p>
                 <p id="call_us">Call Us</p>
-                <p id="phone_no"> +1 (469)-514-0855</p>
+                <p id="phone_no"> +1 (469) 449-6383</p>
               </div>
               <button className="register_card">Register</button>
             </div>

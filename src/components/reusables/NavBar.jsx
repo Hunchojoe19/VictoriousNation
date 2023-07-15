@@ -36,7 +36,7 @@ const NavBar = () => {
             <a href="/nextpage">Campuses</a>
           </div>
           <div>
-            <a href="#">Contact Us</a>
+            <a href="/contact_us">Contact Us</a>
           </div>
         </div>
         <div className="butn">

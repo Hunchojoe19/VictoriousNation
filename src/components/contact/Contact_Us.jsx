@@ -38,7 +38,7 @@ const toggleStyles = makeStyles({
     width: "300px",
     height: "100px",
     borderRadius: "10px",
-    boxShadow: "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
+    boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
     "&:hover": {
       color: "white",
       background: "#c4437c",

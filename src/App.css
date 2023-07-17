@@ -1,0 +1,186 @@
+.profile_container {
+  width: 100%;
+  height: 100%;
+  background-image: url("./components/assets/images/profile.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.profile_container h1 {
+  text-align: justify;
+  font-family: "Bebas Neue";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 5rem;
+  margin-top: 20rem;
+  line-height: 98.5%; /* 59.1px */
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #c4437c 0%, #4a044f 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.profile_container p {
+  text-align: justify;
+  font-family: "Inter";
+  font-size: 23px;
+  font-style: normal;
+  margin-left: 5rem;
+  font-weight: 300;
+  line-height: 98.5%; /* 17.238px */
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #4a044f 0%, #4a044f 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.div-btn {
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+.profile_btn {
+  width: 190px;
+  height: 63px;
+  /* padding: 24px 64px; */
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #c4437c;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+  margin-right: 4rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Quicksand";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.profile_btn1 {
+  width: 190px;
+  height: 63px;
+  /* padding: 24px 64px; */
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #c4437c;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+  /* margin-left: 4rem; */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Quicksand";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.grid_details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid_details_p {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid_details_p p {
+  width: 450px;
+  color: #000;
+  text-align: justify;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26.5px;
+}
+.grid_details_img {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.pastor_img {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+.date_pick {
+  width: 100%;
+  height: 350px;
+  display: flex;
+
+  /* background-color: blue; */
+}
+.date_picker {
+  width: 45%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-color: red; */
+}
+.appointment {
+  width: 55%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-color: red; */
+}
+.appointment img {
+  height: 100%;
+  margin-left: 4rem;
+  margin-top: -5rem;
+}
+.appointment h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  /* font-size: 23px; */
+  font-style: normal;
+  /* margin-left: 5rem; */
+  font-weight: 300;
+  line-height: 100%; /* 17.238px */
+}
+.book {
+  width: 100px;
+  height: 30px;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  background-color: #c4437c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Inter";
+  font-size: 14px;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -33,7 +33,7 @@ const NavBar = () => {
             <a href="/about">About VNC</a>
           </div>
           <div>
-            <a href="/nextpage">Campuses</a>
+            <a href="/campus">Campuses</a>
           </div>
           <div>
             <a href="/contact_us">Contact Us</a>

@@ -13,22 +13,35 @@ const Contact = () => {
     <Box sx={styles}>
       <div className="landingPage-holding">
         <div className="one"></div>
-        <div className="two">
-          <h2>Welcome to</h2>
+        <div className="two" style={{ marginTop: "-3rem" }}>
+          <p style={{ fontFamily: "Quicksand" }}>
+            Your
+            <span
+              style={{
+                color: "#FFF212",
+                marginLeft: "1rem",
+                paddingRight: "1rem",
+                fontWeight: "500",
+                fontFamily: "Dancing Script",
+              }}
+            >
+              Family
+            </span>
+          </p>
           <div>
-            <p>
-              The
+            <p style={{ fontFamily: "Quicksand" }}>
+              Celebrating
               <span
                 style={{
                   color: "#FFF212",
                   marginLeft: "1rem",
                   paddingRight: "1rem",
                   fontWeight: "500",
+                  fontFamily: "Dancing Script",
                 }}
               >
-                Victorious
+                Victory.
               </span>
-              Family
             </p>
           </div>
         </div>

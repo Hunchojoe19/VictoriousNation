@@ -1,12 +1,14 @@
 import { Box, Grid } from "@mui/material";
 import React from "react";
 import Footer from "../reusables/Footer";
+import { useNavigate } from "react-router-dom";
 const style = {
   width: "100%",
   height: "120vh",
   flexGrow: 1,
 };
 const NextAbout = () => {
+  const navigate = useNavigate();
   return (
     <Box sx={style}>
       <div className="next_about">
@@ -656,7 +658,9 @@ const NextAbout = () => {
             </p>
           </div>
           <div className="lead-btn">
-            <button>Meet Pastor Joseph</button>
+            <button onClick={() => navigate("/profile")}>
+              Meet Pastor Joseph
+            </button>
           </div>
         </Grid>
         <Grid

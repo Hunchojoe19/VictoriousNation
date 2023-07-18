@@ -10,7 +10,7 @@ import {
   ToggleButtonGroup,
   createTheme,
 } from "@mui/material";
-import { makeStyles } from "@mui/styles";
+// import { makeStyles } from "@mui/styles";
 import line from "../assets/images/line.png";
 import Nigeria from "../assets/images/Nigeria.png";
 import USA from "../assets/images/USA.png";
@@ -33,18 +33,18 @@ const gridStyles = {
   justifyContent: "center",
   margin: "auto auto",
 };
-const toggleStyles = makeStyles({
-  root: {
-    width: "300px",
-    height: "100px",
-    borderRadius: "10px",
-    boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
-    "&:hover": {
-      color: "white",
-      background: "#c4437c",
-    },
-  },
-});
+// const toggleStyles = makeStyles({
+//   root: {
+//     width: "300px",
+//     height: "100px",
+//     borderRadius: "10px",
+//     boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
+//     "&:hover": {
+//       color: "white",
+//       background: "#c4437c",
+//     },
+//   },
+// });
 const theme = createTheme({
   palette: {
     primary: {
@@ -75,7 +75,7 @@ const Contact_Us = () => {
   const handleOptions = (event, newOptions) => {
     setOptions(newOptions);
   };
-  const classes = toggleStyles();
+  // const classes = toggleStyles();
 
   return (
     <Box sx={styles}>
@@ -105,40 +105,89 @@ const Contact_Us = () => {
                     margin: "20px",
                     color: "blue",
                     background: " #C4437C",
+                    width: "300px",
+                    height: "100px",
+                    borderRadius: "10px",
+                    boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
+                    "&:hover": {
+                      color: "white",
+                      background: "#c4437c",
+                    },
                   }}
-                  className={classes.root}
+                  // className={classes.root}
                 >
                   I need prayer.
                 </ToggleButton>
                 <ToggleButton
                   selected
                   value="two"
-                  sx={{ margin: "20px" }}
-                  className={classes.root}
+                  sx={{
+                    margin: "20px",
+                    width: "300px",
+                    height: "100px",
+                    borderRadius: "10px",
+                    boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
+                    "&:hover": {
+                      color: "white",
+                      background: "#c4437c",
+                    },
+                  }}
+
+                  // className={classes.root}
                 >
                   I’d like to share my story.
                 </ToggleButton>
                 <ToggleButton
                   selected
                   value="three"
-                  sx={{ margin: "20px" }}
-                  className={classes.root}
+                  sx={{
+                    margin: "20px",
+                    width: "300px",
+                    height: "100px",
+                    borderRadius: "10px",
+                    boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
+                    "&:hover": {
+                      color: "white",
+                      background: "#c4437c",
+                    },
+                  }}
+                  // className={classes.root}
                 >
                   I accepted Christ for the first time.
                 </ToggleButton>
                 <ToggleButton
                   selected
                   value="four"
-                  sx={{ margin: "20px" }}
-                  className={classes.root}
+                  sx={{
+                    margin: "20px",
+                    width: "300px",
+                    height: "100px",
+                    borderRadius: "10px",
+                    boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
+                    "&:hover": {
+                      color: "white",
+                      background: "#c4437c",
+                    },
+                  }}
+                  // className={classes.root}
                 >
                   I’d like to get baptized.
                 </ToggleButton>
                 <ToggleButton
                   selected
                   value="five"
-                  sx={{ margin: "20px" }}
-                  className={classes.root}
+                  sx={{
+                    margin: "20px",
+                    width: "300px",
+                    height: "100px",
+                    borderRadius: "10px",
+                    boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
+                    "&:hover": {
+                      color: "white",
+                      background: "#c4437c",
+                    },
+                  }}
+                  // className={classes.root}
                 >
                   I have a question.
                 </ToggleButton>

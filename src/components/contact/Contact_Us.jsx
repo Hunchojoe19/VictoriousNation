@@ -10,7 +10,6 @@ import {
   ToggleButtonGroup,
   createTheme,
 } from "@mui/material";
-// import { makeStyles } from "@mui/styles";
 import line from "../assets/images/line.png";
 import Nigeria from "../assets/images/Nigeria.png";
 import USA from "../assets/images/USA.png";

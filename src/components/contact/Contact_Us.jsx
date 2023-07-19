@@ -113,7 +113,7 @@ const Contact_Us = () => {
                 // aria-activedescendant="text formatting"
                 display={"flex"}
                 flexDirection={"column"}
-                gap="12px"
+                gap="6px"
               >
                 {btns.map((btn, i) => (
                   <Button

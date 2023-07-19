@@ -248,7 +248,103 @@ const Profile = () => {
                   alignItems: "center",
                 }}
               >
-                <button className="profile_btn">Book Appointment</button>
+                <button className="profile_btn" onClick={handleOpen}>
+                  Book Appointment
+                </button>
+                <Modal
+                  open={open}
+                  onClose={handleClose}
+                  aria-labelledby="modal-modal-title"
+                  aria-describedby="modal-modal-description"
+                >
+                  <Box sx={style}>
+                    <LocalizationProvider dateAdapter={AdapterDayjs}>
+                      <DemoContainer components={["DatePicker", "DatePicker"]}>
+                        <div className="date_pick">
+                          <div className="date_picker">
+                            <ValidatorForm
+                              onSubmit={() =>
+                                console.log({ formValues }, "submitted")
+                              }
+                              onError={(errors) => console.log(errors)}
+                            >
+                              <TextField
+                                sx={{ width: "250px" }}
+                                id="hostName"
+                                label="Host Name"
+                                variant="outlined"
+                                value={formValues.hostName}
+                                onChange={(e) =>
+                                  setFormValues({
+                                    ...formValues,
+                                    hostName: e.target.value,
+                                  })
+                                }
+                              />
+                              <TextField
+                                sx={{ marginTop: "1rem", width: "250px" }}
+                                id="eventName"
+                                label="Event Name"
+                                variant="outlined"
+                                value={formValues.eventName}
+                                onChange={(e) =>
+                                  setFormValues({
+                                    ...formValues,
+                                    eventName: e.target.value,
+                                  })
+                                }
+                              />
+
+                              <TextValidator
+                                sx={{ marginTop: "1rem", width: "250px" }}
+                                label="Email"
+                                name="email"
+                                value={formValues.email}
+                                onChange={(e) =>
+                                  setFormValues({
+                                    ...formValues,
+                                    email: e.target.value,
+                                  })
+                                }
+                                validators={["required", "isEmail"]}
+                                errorMessages={[
+                                  "this field is required",
+                                  "email is not valid",
+                                ]}
+                              />
+
+                              <DateTimePicker
+                                sx={{ marginTop: "1rem" }}
+                                label="Scehdule Time"
+                                value={value}
+                                minDate={dayjs()}
+                                onChange={(newValue) =>
+                                  setFormValues({
+                                    ...formValues,
+                                    value: newValue,
+                                  })
+                                }
+                                views={[
+                                  "year",
+                                  "month",
+                                  "day",
+                                  "hours",
+                                  "minutes",
+                                ]}
+                              />
+                              <button className="book">Book</button>
+                            </ValidatorForm>
+                          </div>
+                          <div className="appointment">
+                            <h1>Let's Connect,</h1>
+                            <h1>I'm Available</h1>
+                            <img src={appointment} alt="joe" />
+                          </div>
+                        </div>
+                      </DemoContainer>
+                    </LocalizationProvider>
+                  </Box>
+                </Modal>
                 <button className="profile_btn">
                   <a
                     href="https://huncho-blog.web.app/"

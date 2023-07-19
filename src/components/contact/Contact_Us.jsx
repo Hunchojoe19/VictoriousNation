@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   FormControl,
   FormControlLabel,
   FormLabel,
@@ -7,7 +8,6 @@ import {
   Radio,
   RadioGroup,
   ToggleButton,
-  ToggleButtonGroup,
   createTheme,
 } from "@mui/material";
 import line from "../assets/images/line.png";
@@ -17,7 +17,7 @@ import addressIcon from "../assets/images/addressIcon.png";
 import clockIcon from "../assets/images/clockIcon.png";
 import EmailIcon from "../assets/images/EmailIcon.png";
 import "./contact.css";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import callIcon from "../assets/images/callIcon.png";
 import { ThemeProvider } from "@emotion/react";
 import Footer from "../reusables/Footer";
@@ -57,6 +57,21 @@ const theme = createTheme({
 
 const Contact_Us = () => {
   const [options, setOptions] = useState("one");
+  const btns = [
+    "I need prayer.",
+    "I’d like to share my story.",
+    "I accepted Christ for the first time.",
+    "I’d like to get baptized.",
+    "I have a question.",
+  ];
+  const [active, setActive] = useState(btns[0]);
+  const [formValues, setFormValues] = useState({});
+  const handleChange = ({ target: { name, value } }) => {
+    setFormValues((prev) => ({ ...prev, [name]: value }));
+  };
+  useEffect(() => {
+    setFormValues((prev) => ({ ...prev, moreDetails: active }));
+  }, [active]);
 
   const [form, setForm] = useState({
     firstName: "",
@@ -90,107 +105,38 @@ const Contact_Us = () => {
           <div className="box">
             <div className="box1">
               <h2>how can we help You today?</h2>
-              <ToggleButtonGroup
-                orientation="vertical"
-                value={options}
-                exclusive
-                onChange={handleOptions}
-                aria-activedescendant="text formatting"
+              <Box
+                // orientation="vertical"
+                // value={options}
+                // exclusive
+                // onChange={handleOptions}
+                // aria-activedescendant="text formatting"
+                display={"flex"}
+                flexDirection={"column"}
+                gap="12px"
               >
-                <ToggleButton
-                  selected
-                  value="one"
-                  sx={{
-                    margin: "20px",
-                    color: "blue",
-                    background: " #C4437C",
-                    width: "300px",
-                    height: "100px",
-                    borderRadius: "10px",
-                    boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
-                    "&:hover": {
-                      color: "white",
-                      background: "#c4437c",
-                    },
-                  }}
-                  // className={classes.root}
-                >
-                  I need prayer.
-                </ToggleButton>
-                <ToggleButton
-                  selected
-                  value="two"
-                  sx={{
-                    margin: "20px",
-                    width: "300px",
-                    height: "100px",
-                    borderRadius: "10px",
-                    boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
-                    "&:hover": {
-                      color: "white",
-                      background: "#c4437c",
-                    },
-                  }}
-
-                  // className={classes.root}
-                >
-                  I’d like to share my story.
-                </ToggleButton>
-                <ToggleButton
-                  selected
-                  value="three"
-                  sx={{
-                    margin: "20px",
-                    width: "300px",
-                    height: "100px",
-                    borderRadius: "10px",
-                    boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
-                    "&:hover": {
-                      color: "white",
-                      background: "#c4437c",
-                    },
-                  }}
-                  // className={classes.root}
-                >
-                  I accepted Christ for the first time.
-                </ToggleButton>
-                <ToggleButton
-                  selected
-                  value="four"
-                  sx={{
-                    margin: "20px",
-                    width: "300px",
-                    height: "100px",
-                    borderRadius: "10px",
-                    boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
-                    "&:hover": {
-                      color: "white",
-                      background: "#c4437c",
-                    },
-                  }}
-                  // className={classes.root}
-                >
-                  I’d like to get baptized.
-                </ToggleButton>
-                <ToggleButton
-                  selected
-                  value="five"
-                  sx={{
-                    margin: "20px",
-                    width: "300px",
-                    height: "100px",
-                    borderRadius: "10px",
-                    boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
-                    "&:hover": {
-                      color: "white",
-                      background: "#c4437c",
-                    },
-                  }}
-                  // className={classes.root}
-                >
-                  I have a question.
-                </ToggleButton>
-              </ToggleButtonGroup>
+                {btns.map((btn, i) => (
+                  <Button
+                    value={btn}
+                    onClick={() => setActive(btn)}
+                    sx={{
+                      margin: "20px",
+                      color: active === btn ? "white" : "black",
+                      backgroundColor: active === btn ? "#C4437C" : "#D9D9D9",
+                      width: "300px",
+                      height: "100px",
+                      borderRadius: "10px",
+                      boxShadow: "0px 0px 3px 0px rgba(0, 0, 0, 0.25)",
+                      "&:hover": {
+                        color: "white",
+                        background: "#C4437C",
+                      },
+                    }}
+                  >
+                    {btn}
+                  </Button>
+                ))}
+              </Box>
             </div>
             <div className="box2">
               <div className="box-2-input">
@@ -206,9 +152,9 @@ const Contact_Us = () => {
                   />
                   <input
                     type="text"
-                    placeholder="First Name"
-                    name="firstName"
-                    value={form.firstName}
+                    placeholder="Last Name"
+                    name="lastName"
+                    value={form.lastName}
                     onChange={handleFormChange}
                     className="user_input"
                   />
@@ -269,6 +215,9 @@ const Contact_Us = () => {
                   <p>Please provide us more details.</p>
                   <textarea
                     className="text-area"
+                    name="moreDetails"
+                    value={formValues?.moreDetails}
+                    onChange={handleChange}
                     placeholder="Please type your message here"
                   />
                 </div>
